@@ -1,0 +1,60 @@
+.quote {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(35 30 33 / 95%);
+  color: white;
+  padding: 1.7rem;
+  border-radius: 0.7rem;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .quote {
+    padding: 3rem;
+  }
+}
+.quote .text {
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  line-height: 1.4em;
+  font-weight: 200;
+}
+@media screen and (min-width: 1200px) {
+  .quote .text {
+    font-size: 3vw;
+  }
+}
+.quote .author {
+  text-align: right;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+@media screen and (min-width: 1200px) {
+  .quote .author {
+    font-size: 2vw;
+  }
+}
+.button-get-quote {
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  align-self: center;
+  text-decoration: none;
+  background-color: #97491b;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.493));
+}
+.button-get-quote:hover,
+.button-get-quote:active {
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 1));
+}
+@media screen and (min-width: 1200px) {
+  .button-get-quote {
+    font-size: 1.5vw;
+  }
+}
