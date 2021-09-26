@@ -22,6 +22,10 @@ footer {
   padding: 3rem 2rem;
 }
 
+.content-page a {
+  color: #ab4514;
+}
+
 .content-page article {
   font-size: 1.2rem;
   font-weight: 300;

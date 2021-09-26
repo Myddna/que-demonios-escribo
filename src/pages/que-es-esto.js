@@ -19,6 +19,14 @@ const About = () => {
           sprint loco porque sí.
         </p>
         <p>
+          Las fuentes podrían estar equivocadas. Si sabes el autor correcto,
+          escríbeme.
+        </p>
+        <p>
+          También puedes enviarme citas nuevas para incluir desde el enlace de
+          arriba a la derecha 😁
+        </p>
+        <p>
           El código fuente está disponible para su cotilleo en{" "}
           <a
             href="https://github.com/Myddna/que-demonios-escribo"

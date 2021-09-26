@@ -13,6 +13,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
       display: "flex",
       justifyContent: "space-between",
+      fontSize: "1rem",
     }}
   >
     <div
@@ -21,7 +22,7 @@ const Header = ({ siteTitle }) => (
         padding: `0.5rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0, fontWeight: 200, fontSize: "1rem" }}>
+      <h1 style={{ margin: 0, fontWeight: 200, fontSize: "1.1rem" }}>
         <Link
           to="/"
           style={{
@@ -46,7 +47,15 @@ const Header = ({ siteTitle }) => (
         }}
       >
         ¿Qué es esto?
-      </Link>
+      </Link>{" "}
+      |{" "}
+      <a
+        style={{ color: "white" }}
+        href="mailto:myddna@dispersion.es?subject=Nueva cita para QDE"
+        title="Envíame tu cita y tu nombre de autor y te la publico cuando pueda"
+      >
+        Envíame la tuya
+      </a>
     </div>
   </header>
 )
