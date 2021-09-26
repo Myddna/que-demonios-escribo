@@ -20,7 +20,11 @@ const About = () => {
         </p>
         <p>
           El código fuente está disponible para su cotilleo en{" "}
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Myddna/que-demonios-escribo"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github
           </a>{" "}
         </p>
